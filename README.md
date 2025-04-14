@@ -1,4 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# RoomMixer - Find Your Perfect Roommate & Housing
+
+RoomMixer is a comprehensive platform designed to help users find compatible roommates and suitable housing options. Available at [www.roommixer.com](https://www.roommixer.com).
+
+## Project Overview
+
+RoomMixer addresses the challenges of finding compatible roommates and affordable housing by:
+
+- **Matching Algorithm**: Connects users based on lifestyle preferences, habits, and personalities
+- **Housing Listings**: Allows users to browse, create and manage housing listings
+- **Secure Messaging**: Facilitates communication between potential roommates
+- **User Profiles**: Detailed profiles to showcase personality traits and living preferences
+- **Review System**: Build trust through user reviews and ratings
+- **Admin Dashboard**: Comprehensive management tools for platform administrators
+
+The platform aims to create successful roommate relationships by focusing on compatibility rather than just housing needs.
 
 ## Getting Started
 
