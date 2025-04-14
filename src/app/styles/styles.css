@@ -1,0 +1,128 @@
+/* styles.css */
+.about-page {
+  background: linear-gradient(to top, #09203f 0%, #537895 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-family: "Inter", sans-serif;
+  border: none;
+  padding: 20px;
+}
+
+.section {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 23px;
+  border-radius: 5%;
+  border-color: black;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.image-container, .text-container {
+  flex: 1;
+  margin: 10px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+.image-container:hover{
+  scale: 101% ;
+}
+.text-container {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Ensure readability */
+  border-radius: 15px;
+  max-width: 600px; /* Prevent the text container from getting too wide */
+}
+.text-container:hover{
+  scale: 101%;
+}
+
+.creators {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Add space between cards */
+  color: white;
+}
+.creator-card:hover{
+  scale: 105%;
+}
+.creator-card {
+  flex: 1 1 300px; /* Flex-grow, flex-shrink, and minimum width */
+  max-width: 400px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  border-radius: 5%;
+  background-color: #116466;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.creator-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.creator-card:hover {
+  background-color: #D1E8E2;
+  transition: 1s;
+  color: black;
+}
+.profile-Button{
+  padding-top: 20px;
+}
+.button {
+  padding: 10px;
+  border-color: #66fcf1;
+  border-width: 2px;
+  background-color: #116466;
+  border-radius: 4px;
+  box-shadow: rgba(1, 60, 136, 0.5) 0 -1px 3px 0 inset, rgba(0, 44, 97, 0.1) 0 3px 6px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+  min-height: 56px;
+  min-width: 120px;
+  padding: 16px 20px;
+  touch-action: manipulation;
+  transition: all 0.2s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.button:hover {
+  background-color: #116466;
+  transform: translateY(-2px);
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .about-content {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+  
+}
